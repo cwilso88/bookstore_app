@@ -20,6 +20,7 @@ const Mylist = () => {
             <ul>
                 <li>Clean Code<span>Delete</span></li>
             </ul>
+            <di className="close-list">Close</di>
         </section>
     )
 }
