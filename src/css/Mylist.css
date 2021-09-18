@@ -1,8 +1,24 @@
 #myList {
-    background: black;
+    background: wheat;
     position: fixed;
     top: 0;
     right: 0;
     width: 400px;
     height: 100vh;
+    padding: 30px;
+}
+
+#myList h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#myList ul li {
+    display: block;
+    padding: 10px 0;
+}
+
+#myList ul li span.delete-btn {
+    display: block;
+    padding: 10px 0;
 }

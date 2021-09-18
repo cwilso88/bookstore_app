@@ -2,7 +2,7 @@ import react from "react";
 
 const Books = () => {
     return (
-       <section className="allBooks">
+       <section id="allBooks">
            <div className="book-container">
                 <div className="book">
 
