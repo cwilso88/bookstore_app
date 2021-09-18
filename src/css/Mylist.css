@@ -20,12 +20,16 @@
     text-align: center;
 }
 #myList ul {
-    margin: 0 0 1.5rem 20px;
+    padding-left: 0;
 }
 
 #myList ul li {
     display: block;
     padding: 10px 0;
+}
+
+#myList ul li .check-circle {
+    padding-right: 5px;
 }
 
 #myList ul li span.delete-btn {
@@ -35,6 +39,7 @@
     color: white;
     border-radius: 5px;
     float: right;
+    margin-top: -10px;
 }
 
 #myList .close-list {
@@ -48,3 +53,4 @@
     text-align: center;
     text-transform: uppercase;
 }
+
