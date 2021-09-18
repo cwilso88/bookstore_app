@@ -20,12 +20,13 @@
     text-align: center;
 }
 #myList ul {
-    padding-left: 0;
+    margin: 0 0 1.5rem 20px;
 }
 
 #myList ul li {
-    display: block;
+    display: list-item;
     padding: 10px 0;
+    list-style-type: circle;
 }
 
 #myList ul li span.delete-btn {
