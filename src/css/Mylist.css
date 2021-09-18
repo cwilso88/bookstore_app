@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 #myList {
     background: wheat;
     position: fixed;
@@ -5,12 +9,15 @@
     right: 0;
     width: 400px;
     height: 100vh;
-    padding: 30px;
+    padding: 20px;
 }
 
 #myList h3 {
     font-size: 2rem;
     text-align: center;
+}
+#myList ul {
+    padding-left: 0;
 }
 
 #myList ul li {
@@ -19,10 +26,22 @@
 }
 
 #myList ul li span.delete-btn {
-    display: inline-block;
-    padding: 10px;
+    display: block;
+    padding: 10px ;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    float: right;
 }
 
 #myList .close-list {
-    padding: 10px 0;
+    display: inline-block;
+    margin: 0 auto;
+    background: black;
+    color: white;
+    padding: 20px 40px;
+    width: 360px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
 }
