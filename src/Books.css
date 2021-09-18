@@ -2,9 +2,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+  padding: 40px 0;
 }
 
 .book-container {
   background: black;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-container .book {
+  background: red;
+  width: 200px;
   height: 300px;
 }
