@@ -8,6 +8,16 @@ const Books = () => {
 
                 </div>
            </div>
+           <div className="book-container">
+                <div className="book">
+
+                </div>
+           </div>
+           <div className="book-container">
+                <div className="book">
+
+                </div>
+           </div>
        </section>
     )
 }
