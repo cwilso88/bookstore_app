@@ -1,8 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 .allBooks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  padding: 40px 0;
+  padding: 40px 20px;
 }
 
 .book-container {
