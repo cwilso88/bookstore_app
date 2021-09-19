@@ -1,9 +1,12 @@
 *{
     box-sizing: border-box;
 }
+body {
+    background: #0d0d0d;
+}
 
 #myList {
-    background: wheat;
+    background: #fef9f8;
     position: fixed;
     top: 0;
     right: 0;
@@ -36,13 +39,14 @@
 
 #myList ul li .check-circle {
     padding-right: 5px;
+    color: #ef9273;
 }
 
 #myList ul li span.delete-btn {
     display: block;
     padding: 10px ;
     background-color: red;
-    color: white;
+    color: #fef9f8;
     border-radius: 5px;
     float: right;
     margin-top: -10px;
@@ -52,8 +56,8 @@
 #myList .close-list {
     display: inline-block;
     margin-top: 50px;
-    background: black;
-    color: white;
+    background: #ef9273;
+    color: #fef9f8;
     padding: 20px 40px;
     width: 360px;
     border-radius: 5px;
