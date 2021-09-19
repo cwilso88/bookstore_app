@@ -17,11 +17,18 @@ margin-right: 400px;
   background: #0B0C10 !important;
   padding: 20px;
   font-size: 3rem;
+  cursor: pointer;
 }
 
 .open-list-icon {
   background: #0B0C10;
   color: #ef9273;
+}
+.open-list.closed {
+  display: block;
+}
+.open-list.open {
+  display: none;
 }
 
 #allBooks {
