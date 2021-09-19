@@ -4,7 +4,7 @@ import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
 
 const Mylist = () => {
     return (
-        <section id="myList">
+        <section id="myList" className="">
             <h3>My List of Books</h3>
             <hr />
             <ul>
