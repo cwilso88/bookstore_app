@@ -1,0 +1,15 @@
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#modal .modal-grid {
+    max-width: 600px;
+    background: #fef9f8;
+}

@@ -7,7 +7,7 @@ const Modal = () => {
             <div className="modal-grid">
                 <div className="images">
                     <div className="cover" style={{backgroundImage: 'url(https://images-na.ssl-images-amazon.com/images/I/41yafGMO+rL._SX376_BO1,204,203,200_.jpg)', backgroundSize: 'cover'}}>
-                        cover image
+                        
                     </div>
                     <div className="info">
                         <h2>Title</h2>
