@@ -6,7 +6,7 @@ const Books = () => {
     return (
          <div className="container">
               <div className="open-list" style={{background: 'white'}}>
-               <FontAwesomeIcon icon={faListAlt} />
+               <FontAwesomeIcon className="open-list-icon" icon={faListAlt} />
               </div>
           <section id="allBooks">
                <div className="book-container">
