@@ -1,10 +1,13 @@
 import react from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes } from '@fortawesome/free-solid-svg-icons'
 
 
 const Modal = () => {
     return(
         <section id="modal" className="active">
             <div className="modal-container">
+                <FontAwesomeIcon icon={faTimes} />
                 <div className="modal-grid">
                     <div className="images">
                         <div className="cover" style={{backgroundImage: 'url(https://images-na.ssl-images-amazon.com/images/I/41yafGMO+rL._SX376_BO1,204,203,200_.jpg)', backgroundSize: 'cover'}}>

@@ -18,6 +18,7 @@
     color: #0d0d0d;
     border: 8px solid #fef9f8;
     border-radius: 8px;
+    position: relative;
 }
 #modal .modal-grid {
     display: grid;
