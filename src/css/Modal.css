@@ -42,4 +42,22 @@
 #modal .modal-grid .info h2 {
     font-size: 2rem;
     font-weight: 700;
+    margin-top: 0;
+}
+
+#modal .modal-grid .info .info-line {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: .4rem;
+}
+
+#modal .modal-grid .info .info-line span{
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+#modal .modal-grid .info p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
 }
