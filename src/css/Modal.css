@@ -7,9 +7,34 @@
     align-items: center;
     height: 100vh;
     width: 100%;
+    background: rgba(0, 0, 0, 0.75);
 }
 
-#modal .modal-grid {
+
+#modal .modal-container {
     max-width: 600px;
-    background: #fef9f8;
+    background: #ef9273;
+    padding: 40px;
+    color: #0d0d0d;
+    border: 8px solid #fef9f8;
+    border-radius: 8px;
+}
+#modal .modal-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 10px;
+    border-radius: 8px;
+}
+
+#modal .modal-grid .images {
+   width: 200px;
+}
+#modal .modal-grid .images .cover {
+   height: 300px;
+   border-radius: 8px;
+}
+#modal .modal-grid .info {
+   background: #fef9f8;
+   padding: 15px;
+   border-radius: 8px
 }
