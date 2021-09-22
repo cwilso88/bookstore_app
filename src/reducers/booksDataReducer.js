@@ -42,17 +42,35 @@ const booksDataReducer = () => {
             author: 'Robin Wieruch',
             category: 'Programming',
             published: '2018',
-            description: `Robin Wieruch, teaches you the fundamentals of React in a clean, pragmatic, no-nonsense way. You will build a real-world application without complicated tooling. It explains general concepts, patterns, and best practices in a real-world React application. `,
+            description: `Robin Wieruch, teaches you the fundamentals of React in a clean, pragmatic, no-nonsense way. You will build a real-world application without complicated tooling. It explains general concepts, patterns, and best practices in a real-world React application.`,
             coverURL: 'https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=172004399X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=booksoncode-20'
         },
         {
             id: 6,
-            title: 'The Road to React', 
-            author: 'Robin Wieruch',
-            category: 'Programming',
-            published: '2018',
-            description: `Robin Wieruch, teaches you the fundamentals of React in a clean, pragmatic, no-nonsense way. You will build a real-world application without complicated tooling. It explains general concepts, patterns, and best practices in a real-world React application. `,
-            coverURL: 'https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=172004399X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=booksoncode-20'
+            title: `HTML and CSS: Design and build websites`, 
+            author: 'Jon Duckett',
+            category: 'Software Development',
+            published: '2011',
+            description: `This educational book is one that you will enjoy picking up, reading, then referring back to. It will make you wish other technical topics were presented in such a simple, attractive and engaging way!`,
+            coverURL: 'https://images-na.ssl-images-amazon.com/images/I/31b4K-hFH-L._SX395_BO1,204,203,200_.jpg'
+        },
+        {
+            id: 7,
+            title: `JavaScript and JQuery: Interactive Front-End Web Development`, 
+            author: 'Jon Duckett',
+            category: 'Computer Science',
+            published: '2014',
+            description: `You'll learn how to achieve techniques seen on many popular websites (such as adding animation, tabbed panels, content sliders, form validation, interactive galleries, and sorting data)..`,
+            coverURL: 'https://images-na.ssl-images-amazon.com/images/I/31SRWF+LkKL._SX398_BO1,204,203,200_.jpg'
+        },
+        {
+            id: 8,
+            title: `JavaScript and JQuery: Interactive Front-End Web Development`, 
+            author: 'Jon Duckett',
+            category: 'Computer Science',
+            published: '2014',
+            description: `You'll learn how to achieve techniques seen on many popular websites (such as adding animation, tabbed panels, content sliders, form validation, interactive galleries, and sorting data)..`,
+            coverURL: 'https://images-na.ssl-images-amazon.com/images/I/31SRWF+LkKL._SX398_BO1,204,203,200_.jpg'
         },
     ]
 }
