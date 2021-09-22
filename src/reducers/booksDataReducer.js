@@ -65,12 +65,12 @@ const booksDataReducer = () => {
         },
         {
             id: 8,
-            title: `JavaScript and JQuery: Interactive Front-End Web Development`, 
-            author: 'Jon Duckett',
-            category: 'Computer Science',
+            title: `Don't Make Me Think`, 
+            author: 'Steve Krug',
+            category: 'Software Development',
             published: '2014',
-            description: `You'll learn how to achieve techniques seen on many popular websites (such as adding animation, tabbed panels, content sliders, form validation, interactive galleries, and sorting data)..`,
-            coverURL: 'https://images-na.ssl-images-amazon.com/images/I/31SRWF+LkKL._SX398_BO1,204,203,200_.jpg'
+            description: `This book describes the key points, examples and insights which are important to know about website usability. The major idea is to create designs with which users wouldn't need to think too much how the interface works.`,
+            coverURL: 'https://images-na.ssl-images-amazon.com/images/I/41MdP5Tn0wL._SX387_BO1,204,203,200_.jpg'
         },
     ]
 }
