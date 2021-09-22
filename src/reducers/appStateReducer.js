@@ -30,6 +30,22 @@ const AppStateReducer = (state = initialState, action) => {
             
             return newState;
             break;
+
+            // OPEN INFO BOOK CASE
+        case 'OPEN_INFO_BOOK':
+                newState = Object.assign({}, state, {
+                popupOpen: true });
+                
+                return newState;
+                break;
+
+            // CLOSE INFO BOOK CASE
+        case 'CLOSE_INFO_BOOK':
+                newState = Object.assign({}, state, {
+                popupOpen: false });
+
+                return newState;
+                break;
     
         default:
             return state;
