@@ -22,7 +22,8 @@ const AppStateReducer = (state = initialState, action) => {
 
             // REMOVE BOOK CASE
         case 'REMOVE_BOOK':
-            var myList = 
+            var myList = state.myList.filter(item => 
+                item.id !== action.payload);
             
             newState = Object.assign({}, state, {
                 myList: myList });
