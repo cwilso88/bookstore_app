@@ -47,6 +47,22 @@ const AppStateReducer = (state = initialState, action) => {
                 return newState;
                 break;
     
+            // OPEN MYLIST CASE
+        case 'OPEN_MYLIST':
+                newState = Object.assign({}, state, {
+                listOpen: true });
+                
+                return newState;
+                break;
+
+            // CLOSE MYLIST CASE
+        case 'CLOSE_MYLIST':
+                newState = Object.assign({}, state, {
+                listOpen: false });
+
+                return newState;
+                break;
+    
         default:
             return state;
             break;
