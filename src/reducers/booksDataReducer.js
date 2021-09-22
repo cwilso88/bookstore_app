@@ -36,5 +36,23 @@ const booksDataReducer = () => {
             description: `Eloquent JavaScript is unlike so many of the educational materials out there. It is complete and thorough in a sense that few books or websites are. For being a single book that doesn't read like a dense textbook, it spans a surprising amount of material, including asynchronous programming, node, and data immutability.`,
             coverURL: 'https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg'
         },
+        {
+            id: 5,
+            title: 'The Road to React', 
+            author: 'Robin Wieruch',
+            category: 'Programming',
+            published: '2018',
+            description: `Robin Wieruch, teaches you the fundamentals of React in a clean, pragmatic, no-nonsense way. You will build a real-world application without complicated tooling. It explains general concepts, patterns, and best practices in a real-world React application. `,
+            coverURL: 'https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=172004399X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=booksoncode-20'
+        },
+        {
+            id: 6,
+            title: 'The Road to React', 
+            author: 'Robin Wieruch',
+            category: 'Programming',
+            published: '2018',
+            description: `Robin Wieruch, teaches you the fundamentals of React in a clean, pragmatic, no-nonsense way. You will build a real-world application without complicated tooling. It explains general concepts, patterns, and best practices in a real-world React application. `,
+            coverURL: 'https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=172004399X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=booksoncode-20'
+        },
     ]
 }
