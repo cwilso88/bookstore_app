@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from 'react-redux';
+import { openingInfoBook } from '../actions/allActions'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faListAlt } from '@fortawesome/free-regular-svg-icons'
 
@@ -21,36 +22,13 @@ class Books extends React.Component {
           <div className="book-container">
             <div
               className="book"
+              onClick={this.props.openingInfoBook}
               style={{
                 backgroundImage:
                   "url(https://images-na.ssl-images-amazon.com/images/I/41yafGMO+rL._SX376_BO1,204,203,200_.jpg)",
                 backgroundSize: "cover",
               }}
             ></div>
-          </div>
-          <div className="book-container">
-            <div className="book"></div>
-          </div>
-          <div className="book-container">
-            <div className="book"></div>
-          </div>
-          <div className="book-container">
-            <div className="book"></div>
-          </div>
-          <div className="book-container">
-            <div className="book"></div>
-          </div>
-          <div className="book-container">
-            <div className="book"></div>
-          </div>
-          <div className="book-container">
-            <div className="book"></div>
-          </div>
-          <div className="book-container">
-            <div className="book"></div>
-          </div>
-          <div className="book-container">
-            <div className="book"></div>
           </div>
         </section>
       </div>
@@ -59,8 +37,13 @@ class Books extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-  console.log(state);
-  return state;
+     console.log(state);
+  return {state}
+ 
 };
 
-export default connect(mapStateToProps)(Books);
+export default connect(mapStateToProps, 
+     {
+          openingInfoBook
+     }
+     )(Books);
