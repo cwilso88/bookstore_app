@@ -2,7 +2,7 @@ import { combineReducers } from "redux";
 import { appStateReducer } from "./appStateReducer";
 import { booksDataReducer } from "./booksDataReducer";
 
-combineReducers({
+export default combineReducers({
     globalState: appStateReducer,
     booksData: booksDataReducer
-})
+});
