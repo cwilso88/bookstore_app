@@ -1,11 +1,18 @@
-import react from 'react'
+import React from 'react';
+import { connect } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
 
 
-const Modal = () => {
+class Modal extends React.Component {
+    constructor() {
+      super();
+      this.state = ''
+    }
+
+    render() {
     return (
-      <section id="modal" className="active">
+      <section id="modal" className={this.props.globalState.popupOpen === true ? 'active' : ''}>
         <div className="modal-container">
           <div className="close-btn">
             <FontAwesomeIcon icon={faTimes} />
@@ -46,6 +53,15 @@ const Modal = () => {
         </div>
       </section>
     );
+  }
 }
 
-export default Modal;
+
+const mapStateToProps = (state) => {
+  console.log(state);
+  return state
+};
+
+export default connect(mapStateToProps, 
+  {}
+  )(Modal);
