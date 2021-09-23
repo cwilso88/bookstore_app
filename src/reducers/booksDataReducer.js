@@ -1,4 +1,4 @@
-const booksDataReducer = () => {
+export const booksDataReducer = () => {
     return [
         {
             id: 1,

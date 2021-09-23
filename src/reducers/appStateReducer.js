@@ -7,7 +7,7 @@ const initialState = {
 
 let newState;
 
-export const AppStateReducer = (state = initialState, action) => {
+export const appStateReducer = (state = initialState, action) => {
     switch (action.type) {
         // ADD BOOK CASE
         case 'ADD_BOOK':
