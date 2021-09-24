@@ -20,9 +20,14 @@ body {
     transition: translate3d .4s ease-in-out;
 }
 
+.popupOpen {
+    filter: blur(25px);
+}
+
 #myList.active {
     transform: translate3d(0px, 0, 0);
 }
+
 
 #myList h3 {
     font-size: 2rem;

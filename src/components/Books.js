@@ -31,7 +31,7 @@ class Books extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div id="container" className={`popupOpen`}>
         <div className="open-list" style={{ background: "white" }}>
           <FontAwesomeIcon className="open-list-icon" icon={faListAlt} />
         </div>

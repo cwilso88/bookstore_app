@@ -1,12 +1,16 @@
 * {
   box-sizing: border-box;
 }
-.container {
+#container {
   max-width: 900px;
   margin: 0 auto;
 }
 
-.container.active {
+.popupOpen {
+  filter: blur(25px);
+}
+
+#container.active {
 margin-right: 400px;
 }
 
