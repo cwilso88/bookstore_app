@@ -6,11 +6,29 @@ import { faListAlt } from '@fortawesome/free-regular-svg-icons'
 
 class Books extends React.Component {
   constructor() {
-       super();
-       this.state = {
-            name: 'cha'
-       }
+    super();
+    this.state = {
+      name: "cha",
+    };
   }
+
+  showAllBooks = () => {
+    return this.props.booksData.map((book) => {
+      return (
+        <div className="book-container">
+          <div
+            key={book.id}
+            className="book"
+            onClick={this.props.openingInfoBook}
+            style={{
+              backgroundImage: `url(${book.coverURL})`,
+              backgroundSize: "cover",
+            }}
+          ></div>
+        </div>
+      );
+    });
+  };
 
   render() {
     return (
@@ -19,17 +37,7 @@ class Books extends React.Component {
           <FontAwesomeIcon className="open-list-icon" icon={faListAlt} />
         </div>
         <section id="allBooks">
-          <div className="book-container">
-            <div
-              className="book"
-              onClick={this.props.openingInfoBook}
-              style={{
-                backgroundImage:
-                  "url(https://images-na.ssl-images-amazon.com/images/I/41yafGMO+rL._SX376_BO1,204,203,200_.jpg)",
-                backgroundSize: "cover",
-              }}
-            ></div>
-          </div>
+             {this.showAllBooks()}
         </section>
       </div>
     );
