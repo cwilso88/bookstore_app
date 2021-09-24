@@ -1,4 +1,5 @@
 import React from "react";
+import { connect } from 'react-redux';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
 
@@ -31,4 +32,13 @@ const Mylist = () => {
     )
 }
 
-export default Mylist;
+const mapStateToProps = (state) => {
+    console.log(state);
+    return state
+  };
+  
+  export default connect(mapStateToProps, 
+    {
+      
+    }
+    )(Mylist);
