@@ -8,6 +8,7 @@ const Header = () => {
                 <div className="logo"></div>
                 <div className="logo-title">Chasity De La Cruz</div>
             </div>
+            <hr/>
         </div>
     )
 }
