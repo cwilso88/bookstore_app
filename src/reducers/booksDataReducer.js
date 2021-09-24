@@ -15,7 +15,7 @@ export const booksDataReducer = () => {
             author: 'Steve Souders',
             category: 'Computers & Technology',
             published: '2007',
-            description: `The rules in High Performance Web Sites explain how you can optimize the performance of the Ajax, CSS, JavaScript, Flash, and images that you've already built into your site -- adjustments that are critical for any rich web application. ... High Performance Web Sites covers every aspect of that process.`,
+            description: `The rules in High Performance Web Sites explain how you can optimize the performance of the Ajax, CSS, JavaScript, Flash, and images that you've already built into your site.`,
             coverURL: 'https://images-na.ssl-images-amazon.com/images/I/51V30oEPSDL._SX379_BO1,204,203,200_.jpg'
         },
         {
@@ -33,7 +33,7 @@ export const booksDataReducer = () => {
             author: 'Marijn Haverbeke',
             category: 'Web Development & Design',
             published: '2018',
-            description: `Eloquent JavaScript is unlike so many of the educational materials out there. It is complete and thorough in a sense that few books or websites are. For being a single book that doesn't read like a dense textbook, it spans a surprising amount of material, including asynchronous programming, node, and data immutability.`,
+            description: `Eloquent JavaScript is unlike so many of the educational materials out there. It is complete and thorough in a sense that few books or websites are.`,
             coverURL: 'https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg'
         },
         {
@@ -42,7 +42,7 @@ export const booksDataReducer = () => {
             author: 'Robin Wieruch',
             category: 'Programming',
             published: '2018',
-            description: `Robin Wieruch, teaches you the fundamentals of React in a clean, pragmatic, no-nonsense way. You will build a real-world application without complicated tooling. It explains general concepts, patterns, and best practices in a real-world React application.`,
+            description: `Robin Wieruch, teaches you the fundamentals of React in a clean, pragmatic, no-nonsense way. You will build a real-world application without complicated tooling.`,
             coverURL: 'https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=172004399X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=booksoncode-20'
         },
         {
