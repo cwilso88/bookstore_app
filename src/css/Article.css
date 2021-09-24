@@ -5,8 +5,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
+    padding-top: 50px;
+    margin-bottom: 3rem;
 }
 
 #article .container {
@@ -21,4 +23,5 @@
 }
 #article .container p {
     line-height: 1.5rem;
+    padding: 1rem 0;
 }

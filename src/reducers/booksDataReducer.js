@@ -47,7 +47,7 @@ export const booksDataReducer = () => {
         },
         {
             id: 6,
-            title: `HTML and CSS: Design and build websites`, 
+            title: `HTML and CSS`, 
             author: 'Jon Duckett',
             category: 'Software Development',
             published: '2011',
@@ -74,12 +74,12 @@ export const booksDataReducer = () => {
         },
         {
             id: 9,
-            title: `Learning Web Design`, 
-            author: 'Jennifer Niederst Robbins',
+            title: `JavaScript Patterns`, 
+            author: 'Stoyan Stefanov',
             category: 'Software Development',
-            published: '2012',
-            description: `Learn how to use the latest techniques, best practices, and current web standards—including HTML5 and CSS3. Each chapter provides exercises to help you to learn various techniques, and short quizzes to make sure you understand key concepts.`,
-            coverURL: 'https://images-na.ssl-images-amazon.com/images/I/51uPb7Ca1PL._SX408_BO1,204,203,200_.jpg'
+            published: '2010',
+            description: `In this book you’ll learn about detailed concepts like global variables, literal notation patterns, inheritance, constructor functions and so much more. `,
+            coverURL: 'https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0596806752&Format=_SL350_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whatpixel-20&language=en_US'
         },
     ]
 }
