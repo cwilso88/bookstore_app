@@ -44,6 +44,7 @@ body {
 #myList ul li {
     display: block;
     padding: 10px 0;
+    margin-bottom: 1rem;
 }
 
 #myList ul li .check-circle {
