@@ -23,30 +23,27 @@ class Modal extends React.Component {
                 className="cover"
                 style={{
                   backgroundImage:
-                    "url(https://images-na.ssl-images-amazon.com/images/I/41yafGMO+rL._SX376_BO1,204,203,200_.jpg)",
+                    `url(${this.props.globalState.openInfoBook.coverURL})`,
                   backgroundSize: "cover",
                 }}
               ></div>
             </div>
             <div className="info">
-              <h2>Title</h2>
+              <h2>{this.props.globalState.openInfoBook.title}</h2>
               <div className="info-line">
                 <span className="bold">Author:</span>
-                Robert C. Martin
+                {this.props.globalState.openInfoBook.author}
               </div>
               <div className="info-line">
                 <span className="bold">Category:</span>
-                Information Technology
+                {this.props.globalState.openInfoBook.category}
               </div>
               <div className="info-line">
                 <span className="bold">Published:</span>
-                2008
+                {this.props.globalState.openInfoBook.published}
               </div>
               <p className="description">
-                Even bad code can function. But if code isn't clean, it can
-                bring a development organization to its knees. Every year,
-                countless hours and significant resources are lost because of
-                poorly written code. ...
+              {this.props.globalState.openInfoBook.description}
               </p>
             </div>
           </div>

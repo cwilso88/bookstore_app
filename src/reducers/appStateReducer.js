@@ -22,18 +22,18 @@ export const appStateReducer = (state = initialState, action) => {
 
             // REMOVE BOOK CASE
         case 'REMOVE_BOOK':
-            var myList = state.myList.filter(item => 
+                 myList = state.myList.filter(item => 
                 item.id !== action.payload);
-            
-            newState = Object.assign({}, state, {
+                
+                newState = Object.assign({}, state, {
                 myList: myList });
-            
-            return newState;
-            break;
+                
+                return newState;
 
             // OPEN INFO BOOK CASE
         case 'OPEN_INFO_BOOK':
                 newState = Object.assign({}, state, {
+                openInfoBook: action.payload,
                 popupOpen: true });
                 
                 return newState;
@@ -65,6 +65,7 @@ export const appStateReducer = (state = initialState, action) => {
     
         default:
             return state;
-            break;
     }
+
 }
+

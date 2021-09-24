@@ -15,9 +15,8 @@ class Books extends React.Component {
   showAllBooks = () => {
     return this.props.booksData.map((book) => {
       return (
-        <div className="book-container">
+        <div key={book.id} className="book-container">
           <div
-            key={book.id}
             className="book"
             onClick={this.props.openingInfoBook.bind(null, book)}
             style={{
