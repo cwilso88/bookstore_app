@@ -1,13 +1,15 @@
 import React from "react";
 import { connect } from 'react-redux';
+import { closingMyList } from "../actions/allActions";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
 
-const Mylist = () => {
+class Mylist extends React.Component {
+    render() {
     return (
-        <section id="myList" className={'popupOpen'}>
+        <section id="myList" className={this.props.globalState.listOpen === true ? 'active' : ''}>
             <h3>My List of Books</h3>
-            <hr />
+            <hr className="line" />
             <ul>
                 <li><span className="check-circle"><FontAwesomeIcon icon={faCheckCircle} /></span>Clean Code <span className="delete-btn">Delete</span></li>
             </ul>
@@ -27,9 +29,10 @@ const Mylist = () => {
                 <li><span className="check-circle"><FontAwesomeIcon icon={faCheckCircle} /></span>Clean Code <span className="delete-btn">Delete</span></li>
             </ul>
             
-            <div className="close-list">Close List</div>
+            <div onClick={this.props.closingMyList} className="close-list">Close List</div>
         </section>
     )
+    }
 }
 
 const mapStateToProps = (state) => {
@@ -39,6 +42,6 @@ const mapStateToProps = (state) => {
   
   export default connect(mapStateToProps, 
     {
-      
+      closingMyList
     }
     )(Mylist);

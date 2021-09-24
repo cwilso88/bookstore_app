@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from 'react-redux';
 import { openingInfoBook } from '../actions/allActions'
+import { openingMyList } from '../actions/allActions'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faListAlt } from '@fortawesome/free-regular-svg-icons'
 
@@ -32,7 +33,7 @@ class Books extends React.Component {
   render() {
     return (
       <div id="container" className={(this.props.globalState.popupOpen === true) ? 'popupOpen' : ''}>
-        <div className="open-list" style={{ background: "white" }}>
+        <div onClick={this.props.openingMyList} className="open-list" style={{ background: "white" }}>
           <FontAwesomeIcon className="open-list-icon" icon={faListAlt} />
         </div>
         <section id="allBooks">
@@ -51,6 +52,7 @@ const mapStateToProps = (state) => {
 
 export default connect(mapStateToProps, 
      {
-          openingInfoBook
+          openingInfoBook,
+          openingMyList
      }
      )(Books);
