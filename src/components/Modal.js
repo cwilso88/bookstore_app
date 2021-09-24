@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { closingInfoBook } from '../actions/allActions'
+import { closingInfoBook } from '../actions/allActions';
+import { addingBook } from '../actions/allActions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
 
@@ -48,7 +49,7 @@ class Modal extends React.Component {
               {this.props.globalState.openInfoBook.description}
               </p>
             </div>
-            <div className="add-btn">
+            <div className="add-btn" onClick={this.props.addingBook.bind(null, this.props.globalState.openInfoBook.title)}>
                 Add to my list
               </div>
           </div>
@@ -66,6 +67,7 @@ const mapStateToProps = (state) => {
 
 export default connect(mapStateToProps, 
   {
-    closingInfoBook
+    closingInfoBook,
+    addingBook
   }
   )(Modal);
