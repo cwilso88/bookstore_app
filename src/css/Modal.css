@@ -50,6 +50,7 @@
 #modal .modal-grid .images .cover {
    height: 300px;
    border-radius: 8px;
+   background-position: center;
 }
 #modal .modal-grid .info {
    background: #fef9f8;
@@ -58,7 +59,7 @@
 }
 
 #modal .modal-grid .info h2 {
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 700;
     margin-top: 0;
 }

@@ -15,7 +15,8 @@ class Modal extends React.Component {
     return (
       <section id="modal" className={this.props.globalState.popupOpen === true ? 'active' : ''}>
         <div className="modal-container">
-          <div className="close-btn">
+          <div className="close-btn"
+               onClick={this.props.closingInfoBook}>
             <FontAwesomeIcon icon={faTimes} />
           </div>
           <div className="modal-grid">
@@ -32,15 +33,15 @@ class Modal extends React.Component {
             <div className="info">
               <h2>{this.props.globalState.openInfoBook.title}</h2>
               <div className="info-line">
-                <span className="bold">Author:</span>
+                <span className="bold">Author: </span>
                 {this.props.globalState.openInfoBook.author}
               </div>
               <div className="info-line">
-                <span className="bold">Category:</span>
+                <span className="bold">Category: </span>
                 {this.props.globalState.openInfoBook.category}
               </div>
               <div className="info-line">
-                <span className="bold">Published:</span>
+                <span className="bold">Published: </span>
                 {this.props.globalState.openInfoBook.published}
               </div>
               <p className="description">

@@ -31,7 +31,7 @@ export const booksDataReducer = () => {
             id: 4,
             title: 'Eloquent JavaScript', 
             author: 'Marijn Haverbeke',
-            category: 'Web Development & Design',
+            category: 'Web Development',
             published: '2018',
             description: `Eloquent JavaScript is unlike so many of the educational materials out there. It is complete and thorough in a sense that few books or websites are.`,
             coverURL: 'https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg'
