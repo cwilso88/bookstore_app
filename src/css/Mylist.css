@@ -17,7 +17,7 @@ body {
     -webkit-box-shadow: -2px 3px 21px 3px rgba(0,0,0,0.68);
     -moz-box-shadow: -2px 3px 21px 3px rgba(0,0,0,0.68);
     transform: translate3d(400px, 0, 0);
-    transition: translate3d .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .popupOpen {
