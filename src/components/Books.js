@@ -19,7 +19,7 @@ class Books extends React.Component {
           <div
             key={book.id}
             className="book"
-            onClick={this.props.openingInfoBook}
+            onClick={this.props.openingInfoBook.bind(null, book)}
             style={{
               backgroundImage: `url(${book.coverURL})`,
               backgroundSize: "cover",

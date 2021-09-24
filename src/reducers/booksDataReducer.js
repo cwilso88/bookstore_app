@@ -20,7 +20,7 @@ export const booksDataReducer = () => {
         },
         {
             id: 3,
-            title: `JavaScript: The Good Parts`, 
+            title: `JavaScript The Good Parts`, 
             author: 'Douglas Crockford',
             category: 'Programming',
             published: '2007',
