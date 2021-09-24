@@ -47,10 +47,10 @@ class Modal extends React.Component {
               <p className="description">
               {this.props.globalState.openInfoBook.description}
               </p>
-              <div className="add-btn">
+            </div>
+            <div className="add-btn">
                 Add to my list
               </div>
-            </div>
           </div>
         </div>
       </section>

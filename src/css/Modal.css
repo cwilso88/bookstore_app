@@ -38,7 +38,16 @@
 }
 
 #modal .modal-container .add-btn {
-    
+    display: inline-block;
+    padding: 18px 40px;
+    color: #fef9f8;
+    background: #0d0d0d;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: .5rem;
+    text-transform: capitalize;
+    grid-column: 2;
+    text-align: center;
 }
 
 #modal .modal-grid {
@@ -53,8 +62,10 @@
 }
 #modal .modal-grid .images .cover {
    height: 300px;
-   border-radius: 8px;
    background-position: center;
+   box-shadow: 0px 2px 11px 1px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 2px 11px 1px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 2px 11px 1px rgba(0,0,0,0.75);
 }
 #modal .modal-grid .info {
    background: #fef9f8;
