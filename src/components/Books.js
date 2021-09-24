@@ -46,7 +46,7 @@ class Books extends React.Component {
 
 const mapStateToProps = (state) => {
      console.log(state);
-  return {state}
+  return state
  
 };
 

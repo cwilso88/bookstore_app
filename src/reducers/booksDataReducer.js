@@ -72,5 +72,14 @@ export const booksDataReducer = () => {
             description: `This book describes the key points, examples and insights which are important to know about website usability. The major idea is to create designs with which users wouldn't need to think too much how the interface works.`,
             coverURL: 'https://images-na.ssl-images-amazon.com/images/I/41MdP5Tn0wL._SX387_BO1,204,203,200_.jpg'
         },
+        {
+            id: 9,
+            title: `Learning Web Design`, 
+            author: 'Jennifer Niederst Robbins',
+            category: 'Software Development',
+            published: '2012',
+            description: `Learn how to use the latest techniques, best practices, and current web standards—including HTML5 and CSS3. Each chapter provides exercises to help you to learn various techniques, and short quizzes to make sure you understand key concepts.`,
+            coverURL: 'https://images-na.ssl-images-amazon.com/images/I/51uPb7Ca1PL._SX408_BO1,204,203,200_.jpg'
+        },
     ]
 }
