@@ -37,6 +37,10 @@
     color: #0d0d0d;
 }
 
+#modal .modal-container .add-btn {
+    
+}
+
 #modal .modal-grid {
     display: grid;
     grid-template-columns: 200px 1fr;
@@ -80,3 +84,4 @@
     font-weight: 400;
     margin: 0;
 }
+
