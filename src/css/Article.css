@@ -1,0 +1,24 @@
+#article {
+    color: #fef9f8;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+
+#article .container {
+    flex-direction: column;
+    max-width: 800px;
+    padding: 20px;
+}
+
+#article .container h1 {
+    color: #ef9273;
+    font-size: 3rem;
+}
+#article .container p {
+    line-height: 1.5rem;
+}
