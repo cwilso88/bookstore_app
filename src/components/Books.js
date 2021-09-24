@@ -31,7 +31,7 @@ class Books extends React.Component {
 
   render() {
     return (
-      <div id="container" className={`popupOpen`}>
+      <div id="container" className={(this.props.globalState.popupOpen === true) ? 'popupOpen' : ''}>
         <div className="open-list" style={{ background: "white" }}>
           <FontAwesomeIcon className="open-list-icon" icon={faListAlt} />
         </div>
