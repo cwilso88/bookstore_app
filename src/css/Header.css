@@ -27,3 +27,11 @@
 hr {
     border: 1px solid rgb(34, 32, 32);
 }
+
+/*Meida Queries Small Screen*/
+@media only screen and (max-width: 600px) {
+    #header .logo {
+        height: 40px;
+        width: 40px;
+    }
+}
