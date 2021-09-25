@@ -1,3 +1,4 @@
+/* eslint-disable no-unreachable */
 const initialState = {
     myList: [],
     openInfoBook: {},
@@ -17,8 +18,8 @@ export const appStateReducer = (state = initialState, action) => {
             newState = Object.assign({}, state, {
                 myList: myList });
             
-            return newState;
-            break;
+                return newState;
+                break;
 
             // REMOVE BOOK CASE
         case 'REMOVE_BOOK':
@@ -29,6 +30,7 @@ export const appStateReducer = (state = initialState, action) => {
                 myList: myList });
                 
                 return newState;
+                break;
 
             // OPEN INFO BOOK CASE
         case 'OPEN_INFO_BOOK':
@@ -37,6 +39,7 @@ export const appStateReducer = (state = initialState, action) => {
                 popupOpen: true });
                 
                 return newState;
+                // eslint-disable-next-line no-unreachable
                 break;
 
             // CLOSE INFO BOOK CASE
