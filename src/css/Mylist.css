@@ -81,6 +81,7 @@ body {
 @media only screen and (max-width: 600px) {
     #myList {
        width: 320px;
+       height: auto;
        overflow: scroll;
 
     }
@@ -99,7 +100,10 @@ body {
     #myList ul li .check-circle {
         color: #ef9273;
     }
-
-    
   }
+
+  /*Media Queries Landscape*/
+@media (orientation: landscape) {
+    
+}
 

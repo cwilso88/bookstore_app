@@ -43,3 +43,16 @@
         margin-top: 25px;
     }
   }
+
+  /*Media Queries Landscape*/
+@media (orientation: landscape) {
+    #article  {
+      margin-top: 11rem;
+      padding: 0 40px;
+    }
+
+    #article .container p {
+        padding: 1rem 0;
+    }
+    
+  }
