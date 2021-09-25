@@ -56,7 +56,7 @@ export const booksDataReducer = () => {
         },
         {
             id: 7,
-            title: `JavaScript and JQuery: Interactive Front-End Web Development`, 
+            title: `JavaScript and JQuery`, 
             author: 'Jon Duckett',
             category: 'Computer Science',
             published: '2014',

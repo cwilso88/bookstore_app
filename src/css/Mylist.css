@@ -81,15 +81,25 @@ body {
 @media only screen and (max-width: 600px) {
     #myList {
        width: 320px;
+       overflow: scroll;
+
     }
 
     #myList ul li {
-        display: flex;
+        display: grid;
+        grid-template-columns: 10% 1fr 25%;
+        text-align: center;
     }
 
     #myList .close-list {
         height: 50px;
         width: 250px;
     }
+
+    #myList ul li .check-circle {
+        color: #ef9273;
+    }
+
+    
   }
 
