@@ -96,3 +96,19 @@
     margin: 0;
 }
 
+/*Meida Queries Small Screen*/
+@media only screen and (max-width: 600px) {
+    #modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #modal .modal-container {
+        max-width: 320px;
+        height: 100vh;
+    }
+     
+   }
+
