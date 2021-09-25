@@ -108,6 +108,20 @@
     #modal .modal-container {
         max-width: 320px;
         height: 100vh;
+        border: 6px solid #fef9f8;
+        border-radius: 2px;
+    }
+
+    #modal .modal-grid {
+        display: block;
+    }
+
+    #modal .modal-grid .info {
+        border-radius: 2px;
+    }
+
+    #modal .modal-grid .images {
+        display: none;
     }
      
    }
