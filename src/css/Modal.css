@@ -136,3 +136,30 @@
      
    }
 
+   /*Media Queries Landscape*/
+@media (orientation: landscape) {
+    #modal {
+        transform: translate(10px, 30px);
+    }
+    #modal .modal-grid {
+        display: block;
+        transform: translate(-30px, -35px);
+    }
+    #modal .modal-grid .info {
+        transform: translate(10px, 10px);
+    }
+    #modal .modal-grid .images {
+        display: none;
+    }
+    #modal .modal-container .add-btn {
+        display: block;
+        padding: 12px 40px;
+        margin-top: .90rem;
+        text-transform: uppercase;
+        transform: translate(10px,0);
+    }
+    #modal .modal-container .close-btn svg {
+        font-size: 2em;
+    }
+}
+
