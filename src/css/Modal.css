@@ -122,6 +122,7 @@
 
     #modal .modal-grid .info {
         border-radius: 8px;
+        margin-top: 25px;
     }
 
     #modal .modal-grid .images {

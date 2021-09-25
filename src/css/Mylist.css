@@ -76,3 +76,20 @@ body {
     cursor: pointer;
 }
 
+
+/*Meida Queries Small Screen*/
+@media only screen and (max-width: 600px) {
+    #myList {
+       width: 320px;
+    }
+
+    #myList ul li {
+        display: flex;
+    }
+
+    #myList .close-list {
+        height: 50px;
+        width: 250px;
+    }
+  }
+

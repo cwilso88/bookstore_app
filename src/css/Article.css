@@ -15,6 +15,7 @@
     flex-direction: column;
     max-width: 800px;
     padding: 20px;
+    line-height: 1.5;
 }
 
 #article .container h1 {
@@ -22,7 +23,6 @@
     font-size: 3rem;
 }
 #article .container p {
-    line-height: 1.5rem;
     padding: 1rem 0;
 }
 
@@ -40,7 +40,6 @@
     }
     #article .container h1 {
         font-size: 1.5rem;
-        line-height: 1.5;
         margin-top: 25px;
     }
   }
