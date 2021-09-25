@@ -61,7 +61,6 @@ class Modal extends React.Component {
 
 
 const mapStateToProps = (state) => {
-  console.log(state);
   return state
 };
 
