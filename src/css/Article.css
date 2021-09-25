@@ -25,3 +25,20 @@
     line-height: 1.5rem;
     padding: 1rem 0;
 }
+
+
+/*Meida Queries Small Screen*/
+@media only screen and (max-width: 600px) {
+    body {
+      padding: 0 20px;
+    }
+
+    #article {
+        display: block;
+        padding-top: 2rem;
+        height: auto;
+    }
+    #article .container h1 {
+        font-size: 2rem;
+    }
+  }

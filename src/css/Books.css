@@ -62,3 +62,17 @@ margin-right: 400px;
   background-position: center;
   background-repeat: none;
 }
+
+
+/*Meida Queries Small Screen*/
+@media only screen and (max-width: 600px) {
+  #allBooks {
+    grid-template-columns: 1fr;
+    gap: 90px 20px;
+  }
+
+  .book-container {
+    height: 500px;
+  }
+  
+}
