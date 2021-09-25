@@ -112,16 +112,25 @@
         border-radius: 2px;
     }
 
+    #modal .modal-container .close-btn {
+        font-size: 2rem;
+    }
+
     #modal .modal-grid {
         display: block;
     }
 
     #modal .modal-grid .info {
-        border-radius: 2px;
+        border-radius: 8px;
     }
 
     #modal .modal-grid .images {
         display: none;
+    }
+
+    #modal .modal-container .add-btn {
+        height: 60px;
+        width: 230px;
     }
      
    }
