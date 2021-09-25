@@ -81,3 +81,12 @@ margin-right: 400px;
   }
   
 }
+
+/*Media Queries Landscape*/
+@media (orientation: landscape) {
+  #allBooks {
+    margin-top: 20rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 20px;
+  }
+}
